@@ -41,7 +41,8 @@ body {
     letter-spacing: 0.32px;
 }
 .container {
-    width: 1158px;
+    max-width: 1158px;
+    min-width: 320px;
     padding: 0 15px;
     margin: 0 auto;
 }
@@ -173,10 +174,19 @@ body {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
         ),
-        url(../images/office.svg);
+        url("../images/office.svg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+@media (min-resolution: 2x) {
+    .page-main {
+        background-image:
+        linear-gradient(to bottom,
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)),
+        url("../images/office.svg");
+    }
 }
 .page-title h1 {
     max-width: 496px;
@@ -764,3 +774,14 @@ body {
     background-color: #31D0AA;
 }
 /* #endregion */
+
+
+@media (min-width: 768px) and (max-width: 1157px) {
+    .features-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .features-item {
+        flex-basis: calc((100% - 24px) / 2);
+    }
+}
