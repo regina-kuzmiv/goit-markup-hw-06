@@ -41,10 +41,16 @@ body {
     letter-spacing: 0.32px;
 }
 .container {
-    max-width: 1158px;
-    min-width: 320px;
-    padding: 0 15px;
+    max-width: 320px;
+    padding: 0 16px;
     margin: 0 auto;
+}
+@media screen and (min-width: 768px) {
+    max-width: 768px;
+}
+@media screen and (min-width: 1158px) {
+    max-width: 1158px;
+    padding: 0 156px;
 }
 
 /* #region Header */
