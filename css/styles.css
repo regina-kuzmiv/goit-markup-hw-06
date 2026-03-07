@@ -295,15 +295,7 @@ button {
     background-repeat: no-repeat;
     background-position: center;
 }
-@media (min-resolution: 2x) {
-    .page-main {
-        background-image:
-        linear-gradient(to bottom,
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)),
-        url("../images/people-office1@2x.jpg");
-    }
-}
+
 @media only screen and (min-width: 768px) {
     .page-main {
         /* max-width: 768px; */
@@ -323,6 +315,15 @@ button {
             url("../images/people-office1@1x.jpg");
     padding: 188px 0;
   }
+}
+@media (min-resolution: 2x) {
+    .page-main {
+        background-image:
+            linear-gradient(to bottom,
+                rgba(46, 47, 66, 0.7),
+                rgba(46, 47, 66, 0.7)),
+            url("../images/people-office1@2x.jpg");
+    }
 }
 
 .page-title h1 {
@@ -417,6 +418,11 @@ button {
 .features-item {
     position: relative;
     /* max-width: 288px; */
+}
+@media only screen and (max-width: 1157.98px) {
+.features-item p {
+    font-weight: 500;
+  }
 }
 @media only screen and (min-width: 768px) {
     .features-list {
@@ -968,6 +974,7 @@ button {
     .page-footer {
         align-items: flex-start;
         width: 100%;
+        /* padding: 96px 108px; */
     }
 }
 @media only screen and (min-width: 1158px) {
@@ -996,7 +1003,7 @@ button {
         flex-wrap: wrap;
         align-items: baseline;
         gap: 72px 24px;
-        padding: 0 108px;
+        /* padding: 0 108px; */
         margin: 0;
         /* max-width: 264px; */
     }
@@ -1004,15 +1011,20 @@ button {
         text-align: left;
     }
 }
+@media only screen and (min-width: 768px) and (max-width: 1157.97px) {
+.page-footer .container {
+    padding: 0 108px;
+  }
+}
 @media only screen and (min-width: 1158px) {
     .page-footer .container {
         /* padding: 0 108px; */
-        /* padding: 0; */
+        /* padding: 0 16px; */
         /* margin: 0 auto; */
         align-items: baseline;
         flex-wrap: nowrap;
         gap: 0;
-        padding: 0 16px;
+        padding: 0 auto;
         margin: 0 auto;
             /* gap: 120px; */
             /* gap: 120px; */
