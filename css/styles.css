@@ -25,12 +25,19 @@ h2 {
 h3 {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
-    font-size: 36px;
+    /* font-size: 36px;
     font-weight: 700;
     line-height: 0.9;
-    letter-spacing: 0.02em;
-    margin-bottom: 8px;
+    letter-spacing: 0.02em; */
+
     text-align: center;
+    margin-bottom: 8px;
+
+    font-weight: 500;
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 }
 
 body {
@@ -72,6 +79,7 @@ button {
 @media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
+        padding: 0 15px;
     }
 }
 
@@ -298,7 +306,7 @@ button {
 }
 @media only screen and (min-width: 768px) {
     .page-main {
-        max-width: 768px;
+        /* max-width: 768px; */
         background-image: linear-gradient(to bottom,
                     rgba(46, 47, 66, 0.7),
                     rgba(46, 47, 66, 0.7)),
@@ -308,7 +316,7 @@ button {
 }
 @media only screen and (min-width: 1158px) {
 .page-main {
-    max-width: 1440px;
+    /* max-width: 1440px; */
     background-image: linear-gradient(to bottom,
                 rgba(46, 47, 66, 0.7),
                 rgba(46, 47, 66, 0.7)),
@@ -439,6 +447,13 @@ button {
         text-align: left;
     }
 }
+@media only screen and (max-width: 1157.98px) {
+.features-item h3 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+  }
+}
 @media only screen and (min-width: 1158px) {
     .features-item {
         max-width: 264px;
@@ -454,11 +469,11 @@ button {
         height: 112px;
         margin-bottom: 8px;
     }
-    .features-item h3 {
+    /* .features-item h3 {
         font-size: 20px;
         font-weight: 500;
         line-height: 1.2;
-    }
+    } */
 }
 
 /* #endregion */
@@ -487,7 +502,7 @@ button {
     line-height: 1.1;
     letter-spacing: 0.72px;
 }
-.title {
+/* .title {
     color: #2E2F42;
     font-family: "Roboto", sans-serif;
     font-size: 20px;
@@ -496,7 +511,7 @@ button {
     letter-spacing: 0.48px;
     text-align: center;
     background-color: #FFFFFF;
-}
+} */
 .section-list {
     display: flex;
     flex-direction: column;
@@ -683,6 +698,9 @@ button {
     border-top: none;
 }
 .portfolio-info h3 {
+    text-align: left;
+}
+/* .portfolio-info h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
@@ -699,7 +717,7 @@ button {
         font-weight: 500;
         line-height: 1.2;
     }
-}
+} */
 
 /* #endregion */
 
