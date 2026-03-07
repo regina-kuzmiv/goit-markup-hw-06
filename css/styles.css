@@ -1004,7 +1004,7 @@ button {
         align-items: baseline;
         gap: 72px 24px;
         /* padding: 0 108px; */
-        margin: 0;
+        /* margin: 0; */
         /* max-width: 264px; */
     }
     .page-footer .container p {
@@ -1024,8 +1024,8 @@ button {
         align-items: baseline;
         flex-wrap: nowrap;
         gap: 0;
-        padding: 0 auto;
-        margin: 0 auto;
+        /* padding: 0 auto;
+        margin: 0 auto; */
             /* gap: 120px; */
             /* gap: 120px; */
             /* max-width: 264px; */
