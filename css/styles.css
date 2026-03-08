@@ -145,6 +145,27 @@ button {
     letter-spacing: 0.54px;
 }
 
+.mobile-menu-btn {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    /* margin-right: auto; */
+}
+
+.mobile-menu-icon {
+    /* position: absolute; */
+    top: 16px;
+    right: 16px;
+    width: 24px;
+    height: 24px;
+}
+
+@media only screen and (min-width: 768px) {
+    .mobile-menu-btn {
+        display: none;
+    }
+}
+
 /* #endregion */
 
 /* #region Navigation */
@@ -425,7 +446,14 @@ button {
 }
 .features-text {
     padding-top: 8px;
+    font-weight: 500;
 }
+@media only screen and (min-width: 1158px) {
+.features-text {
+    font-weight: 400;
+  }
+}
+
 .features-title {
     text-align: center;
 }
@@ -1285,26 +1313,6 @@ button {
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
-}
-.mobile-menu-btn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* margin-right: auto; */
-}
-
-.mobile-menu-icon {
-    position: absolute;
-    top: 16px;
-    right: 16px;
-    width: 24px;
-    height: 24px;
-}
-
-@media only screen and (min-width: 768px) {
-    .mobile-menu-btn {
-        display: none;
-    }
 }
 
 .mobile-menu-page-nav {
