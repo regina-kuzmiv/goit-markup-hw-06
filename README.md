@@ -4,8 +4,9 @@
 A responsive business website designed to present digital services and solutions for companies. The page features a clear hero section with a call-to-action, highlights key business advantages, introduces the team, showcases portfolio projects, and provides a contact form for potential clients.
 
 ## Preview
-<img width="1439" height="673" alt="Знімок екрана 2026-09-08 о 17 06 27" src="https://github.com/user-attachments/assets/ef68294a-cbc3-4082-a6d4-a4fb6636aed6" />
-(https://regina-kuzmiv.github.io/goit-markup-hw-06/index.html)
+<a href="https://regina-kuzmiv.github.io/goit-markup-hw-06/index.html">
+  <img width="1439" height="673" alt="WebStudio Preview" src="https://github.com/user-attachments/assets/ef68294a-cbc3-4082-a6d4-a4fb6636aed6" />
+</a>
 
 ## Header
 Contains the WebStudio logo, navigation menu with links to the main sections of the website, and contact information, including email and phone number.
