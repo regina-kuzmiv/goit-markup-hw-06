@@ -5,6 +5,7 @@ A responsive business website designed to present digital services and solutions
 
 ## Preview
 <img width="1439" height="673" alt="Знімок екрана 2026-09-08 о 17 06 27" src="https://github.com/user-attachments/assets/cf08ec8c-e826-454c-854c-be69605592b4" />
+
 ## Header
 Contains the WebStudio logo, navigation menu with links to the main sections of the website, and contact information, including email and phone number.
 ## Hero
