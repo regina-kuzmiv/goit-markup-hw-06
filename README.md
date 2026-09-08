@@ -17,8 +17,8 @@ Presents the key advantages of the company’s services through four informative
 ## Our Team
 Showcases team members with their professional photos, names, positions, and social media contacts, allowing visitors to learn more about the specialists and connect with them.
 ## Our Portfolio
-The company’s projects in a responsive gallery. When hovering over a project image, an overlay appears with additional information about the project, including its category and description.
-## Contacts
+Showcases the company’s projects in a responsive gallery. When hovering over a project image, an overlay appears with additional information about the project, including its category and description.
+## Footer
 Contains the WebStudio logo, contact information, social media links, and a subscription form that allows users to subscribe for updates by entering their email address.
 ## Technologies
 
