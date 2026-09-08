@@ -17,3 +17,7 @@ The company’s projects in a responsive gallery. When hovering over a project i
 
 ## Contacts
 Contains the WebStudio logo, contact information, social media links, and a subscription form that allows users to subscribe for updates by entering their email address.
+## Preview
+
+![WebStudio Preview](./<img width="1439" height="673" alt="Знімок екрана 2026-09-08 о 17 06 27" src="https://github.com/user-attachments/assets/cf08ec8c-e826-454c-854c-be69605592b4" />
+)
